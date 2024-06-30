@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: cms
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        default_schema: cms-vod-core
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://161.97.64.105:5432/cms
+    username: cmsapp
+    password: 'ENC(9u8r9tcYdY/cS5sLTMf3x0Hp2nglwbGLI8Hhy95GDBmMKJbkfAHaq8qpfc4wl43Z)'
